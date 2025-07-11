@@ -16,7 +16,7 @@ func createBill() bill {
    name, _ := reader.ReadString('\n')
    name = strings.TrimSpace(name)
 
-
+    
    b := newBill(name)
    fmt.Println("Created the bill - ", b.name)
 
